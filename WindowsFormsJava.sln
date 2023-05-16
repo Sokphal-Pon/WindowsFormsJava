@@ -5,6 +5,10 @@ VisualStudioVersion = 17.2.32505.173
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WindowsFormsJava", "WindowsFormsJava\WindowsFormsJava.csproj", "{5A13F34F-A362-4A7F-95FC-67AA425D22F9}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ChatBot", "ChatBot", "{AB793467-C417-4EFA-AE3E-318B2CE7D968}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChatBot", "ChatBot\ChatBot.csproj", "{3B46BC23-05B3-40D5-8614-2DE23DA4BE3C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,9 +19,16 @@ Global
 		{5A13F34F-A362-4A7F-95FC-67AA425D22F9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5A13F34F-A362-4A7F-95FC-67AA425D22F9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5A13F34F-A362-4A7F-95FC-67AA425D22F9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3B46BC23-05B3-40D5-8614-2DE23DA4BE3C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3B46BC23-05B3-40D5-8614-2DE23DA4BE3C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3B46BC23-05B3-40D5-8614-2DE23DA4BE3C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3B46BC23-05B3-40D5-8614-2DE23DA4BE3C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{3B46BC23-05B3-40D5-8614-2DE23DA4BE3C} = {AB793467-C417-4EFA-AE3E-318B2CE7D968}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {603A617D-0E76-48CD-91B6-EB37D7D57B40}

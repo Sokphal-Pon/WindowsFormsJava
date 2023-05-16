@@ -35,7 +35,6 @@ namespace WindowsFormsJava
                     while (!exeProcess.StandardOutput.EndOfStream)
                     {
                         string line = exeProcess.StandardOutput.ReadLine();
-                        // do something with line
                         textBox2.AppendText(line + "\r\n");
                     }
                 }
